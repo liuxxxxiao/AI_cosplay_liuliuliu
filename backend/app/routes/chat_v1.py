@@ -1,11 +1,11 @@
 # app/routes/chat_v1.py
 from fastapi import APIRouter, HTTPException, Query
-from app.models import PromptRequest, PromptResponse
-from app.services.ollama_service import call_ollama
-from app.services.rag_service import rag_query
-from app.services.memory_service_redis import generate_session_id
-from app.services.retriever_service import RetrieverConfig
-from app.logger import logger
+from backend.app.models import PromptRequest, PromptResponse
+from backend.app.services.ollama_service import call_ollama
+from backend.app.services.rag_service import rag_query
+from backend.app.services.memory_service_redis import generate_session_id
+from backend.app.services.retriever_service import RetrieverConfig
+from backend.app.logger import logger
 
 router = APIRouter()
 

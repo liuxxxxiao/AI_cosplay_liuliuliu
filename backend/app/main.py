@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 
-from app.routes import chat, health, upload
+from backend.app.routes import chat, health, upload
 
 app = FastAPI()
 
