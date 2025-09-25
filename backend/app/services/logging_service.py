@@ -2,7 +2,6 @@
 import os
 import csv
 import json
-import time
 import uuid
 from datetime import datetime
 from typing import Any, Dict, List, Optional
@@ -11,7 +10,7 @@ import requests
 from sqlalchemy import create_engine, Column, Integer, String, Float, Text, DateTime
 from sqlalchemy.orm import sessionmaker, declarative_base
 
-from app.config import (
+from backend.app.config import (
     LOG_SINKS, LOG_DIR, LOG_CSV_FILE,
     LOG_INCLUDE_PROMPT, LOG_INCLUDE_DOCS,
     DATABASE_URL, SPRING_INGEST_URL, SPRING_INGEST_TIMEOUT

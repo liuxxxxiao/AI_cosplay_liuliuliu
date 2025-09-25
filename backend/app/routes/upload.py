@@ -1,6 +1,6 @@
 # app/routes/upload.py
 from fastapi import APIRouter, File, UploadFile, HTTPException
-from app.vectorstore.faiss_store import add_document_to_store
+from backend.app.vectorstore.faiss_store import add_document_to_store
 
 router = APIRouter()
 

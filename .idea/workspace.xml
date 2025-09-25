@@ -6,12 +6,45 @@
   <component name="ChangeListManager">
     <list default="true" id="d84a2356-1847-4a21-b330-41ca3d39deba" name="更改" comment="Initial commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/logger.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/routes/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes/chat.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/routes/chat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes/chat_v1.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/routes/chat_v1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes/health.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/routes/health.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes/logs.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/routes/logs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes/upload.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/routes/upload.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/services/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/embedding_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/services/embedding_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/logging_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/services/logging_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/memory_service_V0.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/services/memory_service_V0.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/memory_service_redis.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/services/memory_service_redis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/ollama_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/services/ollama_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/rag_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/services/rag_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/rag_service_redis.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/services/rag_service_redis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/rag_service_retriever.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/services/rag_service_retriever.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/retriever_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/services/retriever_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/vectorstore/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/vectorstore/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/vectorstore/faiss_store.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/vectorstore/faiss_store.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faiss_index/index.faiss" beforeDir="false" afterPath="$PROJECT_DIR$/backend/data/faiss_index/index.faiss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faiss_index/index.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/backend/data/faiss_index/index.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirement.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/requirement.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/run.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -55,6 +88,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Users\Admin\PycharmProjects\AI_roleplay\AI_cosplay_liuliuliu\backend" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -73,7 +111,7 @@
       <updated>1758637875825</updated>
       <workItem from="1758637876976" duration="949000" />
       <workItem from="1758638878247" duration="88000" />
-      <workItem from="1758727412583" duration="57000" />
+      <workItem from="1758727412583" duration="2933000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -115,7 +153,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758638946529</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1758727484760</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1758727484760</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

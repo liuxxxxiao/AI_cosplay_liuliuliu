@@ -1,6 +1,6 @@
 # app/services/retriever_service.py
 from typing import Optional, List
-from app.vectorstore.faiss_store import get_faiss_store
+from backend.app.vectorstore.faiss_store import get_faiss_store
 
 class RetrieverConfig:
     def __init__(

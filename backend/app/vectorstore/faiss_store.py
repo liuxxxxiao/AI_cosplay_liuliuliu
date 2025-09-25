@@ -1,8 +1,8 @@
 # app/vectorstore/faiss_store.py
 import os
 from langchain_community.vectorstores import FAISS
-from app.services.embedding_service import get_embedding_model
-from app.config import VECTOR_DB_PATH
+from backend.app.services.embedding_service import get_embedding_model
+from backend.app.config import VECTOR_DB_PATH
 
 def get_faiss_store():
     if os.path.exists(VECTOR_DB_PATH):

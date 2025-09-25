@@ -1,11 +1,10 @@
 # app/services/rag_service_retriever.py
 
-from app.vectorstore.faiss_store import get_faiss_store
-from app.services.ollama_service import call_ollama
-from app.services.memory_service_redis import get_memory, save_message
-from app.services.retriever_service import RetrieverConfig, retrieve_docs
+from backend.app.services.ollama_service import call_ollama
+from backend.app.services.memory_service_redis import get_memory, save_message
+from backend.app.services.retriever_service import RetrieverConfig, retrieve_docs
 import time
-from app.services.logging_service import log_interaction
+from backend.app.services.logging_service import log_interaction
 
 def rag_query(
         query: str,

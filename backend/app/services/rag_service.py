@@ -1,7 +1,7 @@
 # app/services/rag_service.py
-from app.vectorstore.faiss_store import get_faiss_store
-from app.services.ollama_service import call_ollama
-from app.services.memory_service_V0 import get_memory  # 提取记忆功能
+from backend.app.vectorstore.faiss_store import get_faiss_store
+from backend.app.services.ollama_service import call_ollama
+from backend.app.services.memory_service_V0 import get_memory  # 提取记忆功能
 # from app.services.memory_service import get_memory, save_message
 
 def rag_query_old(query: str, model: str = None):

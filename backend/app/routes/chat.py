@@ -1,8 +1,8 @@
 # app/routes/chat.py
 from fastapi import APIRouter, HTTPException, Query
-from app.models import PromptRequest, PromptResponse
-from app.services.ollama_service import call_ollama
-from app.services.rag_service import rag_query
+from backend.app.models import PromptRequest, PromptResponse
+from backend.app.services.ollama_service import call_ollama
+from backend.app.services.rag_service import rag_query
 
 router = APIRouter()
 

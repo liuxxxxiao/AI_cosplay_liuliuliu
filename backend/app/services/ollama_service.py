@@ -1,6 +1,6 @@
 # app/services/ollama_service.py
 import requests
-from app.config import OLLAMA_API_URL, DEFAULT_MODEL
+from backend.app.config import OLLAMA_API_URL, DEFAULT_MODEL
 
 def call_ollama(prompt: str, model: str = None, stream: bool = False) -> str:
     payload = {
