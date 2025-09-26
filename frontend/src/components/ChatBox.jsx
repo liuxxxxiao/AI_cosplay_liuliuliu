@@ -1,7 +1,4 @@
-// 聊天窗口
-// src/components/ChatBox.jsx
 import Message from "./Message";
-
 export default function ChatBox({ messages }) {
   return (
     <div className="border rounded p-4 h-80 overflow-y-auto bg-gray-50">

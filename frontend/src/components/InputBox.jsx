@@ -1,16 +1,11 @@
-// 输入框
-// src/components/InputBox.jsx
 import { useState } from "react";
-
 export default function InputBox({ onSend }) {
   const [input, setInput] = useState("");
-
   const handleSend = () => {
     if (!input) return;
     onSend(input);
     setInput("");
   };
-
   return (
     <div className="mt-4 flex">
       <input
