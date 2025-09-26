@@ -1,5 +1,3 @@
-// 单条消息
-// src/components/Message.jsx
 export default function Message({ role, content }) {
   const isUser = role === "user";
   return (

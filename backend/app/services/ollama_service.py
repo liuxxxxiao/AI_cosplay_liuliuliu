@@ -8,7 +8,15 @@ def call_ollama(prompt: str, model: str = None, stream: bool = False) -> str:
         "prompt": prompt,
         "stream": stream
     }
-    res = requests.post(OLLAMA_API_URL, json=payload)
-    res.raise_for_status()
-    return res.json().get("response", "").strip()
+    try:
+        res = requests.post(OLLAMA_API_URL, json=payload)
+        res.raise_for_status()
+        return res.json().get("response", "").strip()
+    except Exception as e:
+        import traceback
+        tb = traceback.format_exc()
+        print(tb)
+        print(e)
+        return ""
+
 
